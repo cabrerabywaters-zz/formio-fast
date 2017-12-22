@@ -1,7 +1,7 @@
 {
   "name": "formio-fast",
   "description": "A Vue.js Plugin for Formio based Surveys",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "author": {
     "name": "Ignacio Cabrera",
     "email": "cabrerabywaters@gmail.com"
