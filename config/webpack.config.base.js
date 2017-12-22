@@ -1,16 +1,15 @@
 var webpack = require('webpack')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-var outputFile = 'formio-vue'
-var globalName = 'FormioVue'
+var outputFile = 'formio-fast'
+var globalName = 'FormioFast'
 
 var config = require('../package.json')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: ['babel-polyfill', './src/index.js'],
   module: {
-    rules: [
-      {
+    rules: [{
         test: /.js$/,
         use: 'babel-loader',
       },

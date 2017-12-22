@@ -3,8 +3,8 @@ var merge = require('webpack-merge')
 var base = require('./webpack.config.base')
 var path = require('path')
 
-var outputFile = 'formio-vue'
-var globalName = 'FormioVue'
+var outputFile = 'formio-fast'
+var globalName = 'FormioFast'
 
 module.exports = merge(base, {
   output: {

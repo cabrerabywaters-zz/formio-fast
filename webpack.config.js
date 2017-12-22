@@ -44,17 +44,17 @@ module.exports = [
   merge(config, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'formio-vue.min.js',
+      filename: 'formio-fast.min.js',
       libraryTarget: 'window',
-      library: 'formio-vue',
+      library: 'formio-fast',
     }
   }),
   merge(config, {
-    entry: path.resolve(__dirname + '/src/components/formio/formio.vue'),
+    entry: path.resolve(__dirname + '/src/components/formio/fast.vue'),
     output: {
-      filename: 'formio-vue.js',
+      filename: 'formio-fast.js',
       libraryTarget: 'umd',
-      library: 'formio-vue',
+      library: 'formio-fast',
       umdNamedDefine: true
     }
   })

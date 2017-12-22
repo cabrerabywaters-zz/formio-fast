@@ -1,6 +1,8 @@
 import FAST from './components/formio/fast.vue'
+import User from './database/Models/User'
 // Install the components
-export function install (Vue) {
+export function install(Vue) {
+  Vue.prototype.$User = User
   Vue.component('fast', FAST)
   /* -- Add more components here -- */
 }
