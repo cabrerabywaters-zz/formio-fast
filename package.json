@@ -1,7 +1,7 @@
 {
-  "name": "formio-vue",
-  "description": "A Vue.js Plugin for Formio",
-  "version": "0.0.8",
+  "name": "formio-fast",
+  "description": "A Vue.js Plugin for Formio based Surveys",
+  "version": "0.0.1",
   "author": {
     "name": "Ignacio Cabrera",
     "email": "cabrerabywaters@gmail.com"
@@ -12,8 +12,8 @@
     "plugin"
   ],
   "license": "MIT",
-  "main": "dist/formio-vue.common.js",
-  "unpkg": "dist/formio-vue.browser.js",
+  "main": "dist/formio-fast.common.js",
+  "unpkg": "dist/formio-fast.browser.js",
   "module": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --config config/webpack.config.dev.js --progress --watch",
@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cabrerabywaters/formio-vue.git"
+    "url": "git+https://github.com/cabrerabywaters/formio-fast.git"
   },
   "bugs": {
-    "url": "https://github.com/cabrerabywaters/formio-vue/issues"
+    "url": "https://github.com/cabrerabywaters/formio-fast/issues"
   },
-  "homepage": "https://github.com/cabrerabywaters/formio-vue#readme",
+  "homepage": "https://github.com/cabrerabywaters/formio-fast#readme",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-eslint": "^7.1.1",

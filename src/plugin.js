@@ -1,7 +1,7 @@
-import formio from './components/formio/formio.vue';
+import FAST from './components/formio/fast.vue';
 
 module.exports = {
   install: function (Vue, options) {
-    Vue.component('formio', formio)
+    Vue.component('fast', FAST)
   }
 }

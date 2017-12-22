@@ -1,6 +1,7 @@
 <template>
     <div>
         <div ref="formio" class="formContainer">
+          HELLLOOOOOOOOOOOOOOO
         </div>
     </div>
 </template>
@@ -8,7 +9,7 @@
 import { Formio as FormioFull } from "formiojs/full";
 
 export default {
-  name: "formio",
+  name: "fast",
   props: {
     src: {
       type: String
